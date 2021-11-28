@@ -11,7 +11,7 @@ const AboutPage = () => {
         <h5 className="display-5 my-5">Hello World...</h5>
         <Row>
           <Col xs={12} md={6}>
-            <Image src={headshot} fluid rounded></Image>
+            <Image src={headshot} className="border" fluid rounded></Image>
           </Col>
           <Col xs={12} md={6} className="d-flex align-items-center pt-5 px-4">
             <p className="lead align">
